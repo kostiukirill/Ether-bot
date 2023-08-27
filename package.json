@@ -1,0 +1,39 @@
+{
+  "name": "ether-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ether-bot-tlg"
+  },
+  "author": "Kostyu Kirill",
+  "license": "ISC",
+  "dependencies": {
+    "@ethersproject/providers": "^5.7.2",
+    "@telegraf/session": "^2.0.0-beta.6",
+    "better-sqlite3": "^8.5.2",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.1",
+    "json-as-xlsx": "^2.5.4",
+    "kysely": "^0.26.2",
+    "node-json-db": "^2.2.0",
+    "telegraf": "^3.38.0",
+    "telegraf-inline-menu": "^6.3.0",
+    "telegraf-session-local": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.4",
+    "@types/dotenv": "^8.2.0",
+    "@types/node": "^20.5.6",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "eslint": "^8.47.0",
+    "typescript": "^5.2.2"
+  }
+}
